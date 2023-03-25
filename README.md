@@ -20,10 +20,14 @@ Create a conda environment and activate the environment.Enter the following comm
 ~~~ console 
 pip install -r requirments.txt
 ~~~
-### Step 3: 
+### Step 3 :
+After installation of en_core_web_lg in your system, it will be downloaded in \Lib\site-packages of your virtual environment. Copy the path of the folder 'en_core_web_lg-3.5.0' and paste it at line 51 of main.py
+(e.g. nlp = spacy.load(r'C:\Users\AISHWARYA KASABE\anaconda3\envs\chatbot_env\Lib\site-packages\en_core_web_lg\en_core_web_lg-3.5.0')
+
+### Step 4: 
 After successful installation, run the main.py file on conda terminal using following command.
 ~~~ console 
 streamlit run main.py
 ~~~
-### Step 4:
+### Step 5:
  The command in step 3 will direct you to streamlit application via a local host (http://localhost:8501/). On this webpage, you can have a live chat with the ChatBot.

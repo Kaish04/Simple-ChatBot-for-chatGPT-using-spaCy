@@ -48,7 +48,7 @@ article = g.extract(url)
 
 nltk.download('punkt')
 
-nlp = spacy.load(r'en_core_web_lg\en_core_web_lg-3.5.0')
+nlp = spacy.load(r'C:\Users\AISHWARYA KASABE\anaconda3\envs\chatbot_env\Lib\site-packages\en_core_web_lg\en_core_web_lg-3.5.0')
 
 #nlp = en_core_web_sm.load()
 def preprocessing(sentence):
