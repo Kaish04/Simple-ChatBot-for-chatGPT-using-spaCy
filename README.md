@@ -3,6 +3,10 @@
 ## Project Description :
  ### It is a simple chatbot implementation that provides information on chatGPT collected from the source of wikipedia link. It is implemented using spaCy library in Python and locally hosted using streamlit application.
 
+## Demo :
+
+![](https://github.com/Kaish04/Simple-ChatBot-for-chatGPT-using-spaCy/blob/master/app_demo_gif.gif)
+
 ## Implementation :
 ### Step 1:
 Clone the repository to your system using the following command.
